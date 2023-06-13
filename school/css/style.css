@@ -1,0 +1,100 @@
+/* Universal Style */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+header {
+    height: 100vh;
+    min-height: 400px;
+    background-size: cover;
+    background-image: url(../images/school-image.jpg);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 18px;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.bg-dark {
+    background-color: #273c66 !important;
+}
+
+/* Body Style */
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 1200px;
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+.body-img {
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* About Section Text Shadow */
+.shadow-text {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Customize the shadow values as per your preference */
+    text-shadow: 5px 5px #e6e5e5 !important;
+}
+
+/* Home Section 3 image style */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-apply {
+    border: 2px solid #fff !important;
+    color: #fff !important;
+    text-transform: inherit;
+    background-color: none !important;
+    padding: 10px 15px !important;
+    border-radius: 27px !important
+}
+
+/* Why choose us section */
+.why-choose-us {
+    background-image: url(../images/background-image.jpg);
+}
+
+.study-cont {
+    padding: 0px 0px;
+}
+
+.text-white {
+    color: #fff!important;
+}
+
+.text-white-shadow {
+    text-shadow: 5px 5px #e6e5e51f;
+}
+
+.main-title {
+    font-size: 38px;
+}
+
+.float-end {
+    float: right!important;
+}
+
+
+
+
+
+
+
